@@ -14,7 +14,7 @@ else if test $value -ge 65
   set color "#FF0000"
 end
 
-set full_text (string join " " "" $value "°C")
+set full_text (string join "" " " $value "°C")
 
 ### Output
 echo $full_text   # i3bar's full_text
